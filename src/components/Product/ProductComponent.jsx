@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import FormValidation from '../FormValidation/FormValidation';
 
 const ProductComponent = () => {
     const [productName, setProductName] = useState('');
@@ -72,6 +73,7 @@ const ProductComponent = () => {
                 </div>
                 
             </form>
+            <FormValidation/>
         </>
     );
 }

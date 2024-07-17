@@ -9,6 +9,7 @@ import ProductComponent from './components/Product/ProductComponent';
 import ConatactComponent from './components/Contact/ConatactComponent';
 import LoginComponent from './components/Login/LoginComponent';
 import SignUpCompoenet from './components/Signin/SignUpCompoenet';
+import EventRegistration from './components/EventRegistration/EventRegistration';
 // import ParentComponent from './components/ParentComponent';
 // import AbhayaComponent from './components/props/AbhayaComponent';
 // import GreetAbhayaComponent from './components/props/greetAbhayaComponent';
@@ -28,6 +29,7 @@ function App() {
       <Route path='/shop' element={<ShopComponent/>}/>
       <Route path='/contact' element={<ConatactComponent/>}/>
       <Route path='/product' element={<ProductComponent/>}/>
+      <Route path='/event' element={<EventRegistration/>}/>
       <Route path='/login' element={<LoginComponent/>}/>
       <Route path='/signup' element={<SignUpCompoenet/>}/>
     </Routes>
